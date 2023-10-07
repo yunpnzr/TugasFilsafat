@@ -12,8 +12,6 @@
     background-image: url("../asset/img/pfg-header.jpg");
     background-size: cover;
     background-position: center;
-  
-    /*  this is where the magic happens:  */
     background-attachment: fixed;
 }
 
