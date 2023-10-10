@@ -1,35 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  
-  <!-- CDN AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
- <title>Project Filsafat</title>
-    
+	 <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>  
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
+
 </head>
 <body>
- <div class="container">
-   <div class="layer_base2">
-     <h1>Perkembangan Ilmu Pengetahuan</h1>
-    </div>
-  <div class="layer_front"></div>
-  <div class="layer_middle"></div>
 
+	<div class="wrapper">
+		<div class="content">
 
- </div>
-   
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Pertemuan 6</div>
+						<div class="layers__title">Perkembangan<br>Ilmu Pengetahuan</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(../asset/img/layer-base1.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(../asset/img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(../asset/img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+		
+			<article class="main-article" style="background-image: url(../asset/img/layer-base2.png);">
+				<div class="main-article__content">
+					<div class="article__title">Perkembangan Ilmu Pengetahuan</div>
+                    <div class="cards-wrapper">
+                        <div class="card">
+                        	<div class="image-wrapper">
+                                <a href="../pra_yunani_kuno/pra_yunani_kuno.html">
+                                    <img src="../asset/img/prayunani.jpg" alt="prayunani">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Zaman Pra Yunani Kuno</b></h5>
+                                <p class="card-text">Filsafat Pra Yunani Kuno muncul ketika manusia mulai mencari penjelasan...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                        	<div class="image-wrapper">
+                                <a href="../yunani_kuno/yunani_kuno.html">
+                                    <img src="../asset/img/yunanikuno.jpg" alt="yunanikuno">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Zaman Yunani Kuno</b></h5>
+                                <p class="card-text">Pada Zaman Yunani Kuno di abad ke-6 SM, terjadi perubahan penting dalam....</p>
+                            </div>
+                        </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="jquery-3.7.1.min.js"></script>
-    <script src="script.js"></script>
+                        <div class="card">
+                        	<div class="image-wrapper">
+                                <a href="../abad_pertengahan/abad_pertengahan.html">
+                                    <img src="../asset/img/prayunani.jpeg" alt="batavia">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Zaman Abad Pertengahan</b></h5>
+                                <p class="card-text">Perkembangan ilmu pengetahuan pada zaman Abad Pertengahan, juga dikenal...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</article>
+		</div>
+	</div>
+
 </body>
 </html>
