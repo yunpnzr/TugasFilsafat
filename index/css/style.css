@@ -70,7 +70,7 @@ body {
 
 }
 .layers__title {
-	font-size: calc(var(--index) * 2.1);
+	font-size: calc(var(--index) * 1.9);
 	letter-spacing: calc(var(--index) / 3);
 	margin-top: calc(var(--index) * 1);
 	line-height: calc(var(--index) * 1.7);
