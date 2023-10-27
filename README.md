@@ -1,2 +1,0 @@
-# TugasFilsafat
-Tugas Filsafat Ilmu 
